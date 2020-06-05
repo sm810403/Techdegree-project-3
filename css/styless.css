@@ -5,80 +5,82 @@
     box-sizing: border-box;
 }
 body {
-    height: 100vh;
-    margin: auto;
+   width: 100%;
+   height: 100vh;
 }
-.head-text, form, hr {
-    width: 80%;
-    margin: auto;
-}
-
 header {
     text-align: center;
 }
-legend {
-    padding: 10px;
-    font-size: 22px;
-    font-family: 600;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.7);
+.headline, .head-text {
+    padding: 20px 10px;
+    font-size:18px;
 }
 .headline {
-    height: 10vh;
-    padding: 20px;
-    background: slategray;
+    background-color: rgb(60, 60, 73);
     color: white;
+    font-size: 23px;
 }
 .head-text {
-    padding: 20px;
-}
-form {
-    display: flex;
-    flex-direction: column;
-    border: none;
-    outline: none;
+    width: 70%;
     margin: auto;
-    position: relative;
+}
+.head-text h2 {
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.7)
+}
+.head-text p {
+    color:rgba(112, 128, 144, 0.6);
 }
 hr {
-    /* width: 90%; */
-    margin: 8px auto;
+    width: 70%;
+    margin: auto;
 }
-.hr1 {
-    border: 2px solid black;
+form {
+    width: 70%;
+    margin: auto;
 }
-.hr2 {
-    border: 1px solid black;
+.input1, .label1 {
+    display: block;
+    padding: 15px 20px 15px 0;
+}
+.input1 {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+select {
+    padding: 15px 20px 15px 0;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
 }
 .hr3 {
-    margin: 15px auto;
-    border: .5px solid black;
+    margin: 25px auto;
 }
-input, label, select, textarea, .form1-h1, .form2-h1, .lastp {
-    width: 90%;
-    margin: auto;
-    display: block;
+form p {
+    padding: 10px 10px 10px 0;
+}
+.input2, .light {
+    display: inline-block;
     padding: 10px;
+}
+.light2 {
+    display: inline-block;
+    padding: 20px 10px 10px 0;
+}
+legend {
+    padding: 15px 20px 15px 0;
 }
 label {
     color: rgba(112, 128, 144, 0.6);
 }
+textarea, input {
+    background-color: rgba(185, 183, 183, 0.4);
+}
 textarea {
-    background-color: rgba(185, 183, 183, 0.4);
-}
-input {
-    padding: 15px;
+    width: 100%;
     border-radius: 5px;
-    border: none ;
-    background-color: rgba(185, 183, 183, 0.4);
-    margin: auto;
-    display: flex;
 }
-.zip {
-    width: 50%;
-    margin-left: 5%;
-    
-}
+
 button {
     display: block;
     text-decoration: none;

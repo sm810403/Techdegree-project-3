@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styless.css">
 </head>
 <body>
+    <div class="wrapper"></div>
         <header>
         <h1 class="headline">THE CODE REVIEW</h1> 
         <div class="head-text">
@@ -15,25 +16,25 @@
         </header>
         <hr class="hr1">
         <hr class="hr2">
-        <form action="" method="post" id="form1">
+        <form action="" method="post" id="form1" class="form1">
             <legend class="form1-h1">Contact Information</legend>
-                <label for="fname">Full Name</label>
-                <input type="text" id="fname" name="fname" placeholder="required">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="emal" placeholder="required">
-                <label for="pnumber">Phone Number</label>
-                <input type="tel" id="pnumber" name="pnumber" placeholder="123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                <label for="staddress">Street Address</label>
-                <input type="text" id="staddress" name="staddress">
-                <label for="city">City</label>
-                <input type="text" id="city" name="city">
-                <label for="state">State</label>
+                <label class="label1" for="fname">Full Name</label>
+                <input class="input1" type="text" id="fname" name="fname" placeholder="required">
+                <label class="label1" for="email">Email Address</label>
+                <input class="input1" type="email" id="email" name="emal" placeholder="required">
+                <label class="label1" for="pnumber">Phone Number</label>
+                <input class="input1" type="tel" id="pnumber" name="pnumber" placeholder="123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <label class="label1" for="staddress">Street Address</label>
+                <input class="input1" type="text" id="staddress" name="staddress">
+                <label class="label1" for="city">City</label>
+                <input class="input1" type="text" id="city" name="city">
+                <label class="label1" for="state">Province</label>
                 <select name="state" id="state" placeholder="Choose State">
                     <option value="bc">British Columbia</option>
                     <option value="ab">Alberta</option>
                     <option value="mn">Manitoba</option>
                     <option value="nb">New Brunswick</option>
-                    <option value="nb"Newfoundland and Ladrador></option>
+                    <option value="nb">Newfoundland and Ladrador></option>
                     <option value="nt">Northwest Territories</option>
                     <option value="ns">Nova Scotia</option>
                     <option value="nv">Nunavut</option>
@@ -42,28 +43,27 @@
                     <option value="qb">Quebec</option>
                     <option value="sk">Saskatchewan</option>
                     <option value="yk">Yukon</option>
-                </select>
-                <label for="zcode">Zip Code</label>
-                <input type="text" id="zcode" class="zip" name="zcode">
-                <hr class="hr3">
-            
+                </select><br>
+                <label class="label1" for="zcode">Zip Code</label>
+                <input class="input1" type="text" id="zcode" class="zip" name="zcode">
+        </form>
+        <hr class="hr3">
+        <form action="" method="post" id="form2" class="form2">  
                 <legend class="form2-h1">Newsletter</legend>
-                <label>Select the newsletters you would like to recieve</label>
-                <input type="radio" id="news" name="news">
-                <label class="inline" for="news">HTML news</label>
-                <input type="radio" id="news" name="news">
-                <label class="inline" for="news">CSS news</label>
-                <input type="radio" id="news" name="news">
-                <label class="inline" for="news">Javascript news</label>
-                <label>Newsletter format</label>
-                <input type="radio" id="nformat" name="nformat">
-                <label class="inline" for="nformat">HTML</label>
-                <input type="radio" id="nformat" name="nformat">
-                <label class="inline" for="nformat">Plain text</label>
-                <label for="comment">Other topics you'd like to hear about</label>
+                <p>Select the newsletters you would like to recieve</p>
+                <input class="input2" type="radio" id="news" name="news"><label class="light" for="news">HTML news</label><br>
+                <input class="input2" type="radio" id="news" name="news"><label class="light" for="news">CSS news</label><br>
+                <input class="input2" type="radio" id="news" name="news"><label class="light" for="news">Javascript news</label><br>
+                <p>Newsletter format</p>
+                <input class="input2" type="radio" id="nformat" name="nformat">
+                <label for="nformat" class="light">HTML</label><br>
+                <input class="input2" type="radio" id="nformat" name="nformat">
+                <label for="nformat" class="light">Plain text</label><br>
+                <label class="light2" for="comment">Other topics you'd like to hear about</label>
                 <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
                 <button type="submit" id="btn-signup" name="btn-signup">Sign Up</button>
                 <p class="lastp"><i>Copyright The Code Review</i></p>
         </form>
+    </div>
 </body>
 </html>
