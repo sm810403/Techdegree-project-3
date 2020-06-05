@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "arial",sans-serif;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    margin: auto;
+}
+.head-text, form, hr {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+legend {
+    padding: 10px;
+    font-size: 22px;
+    font-family: 600;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+.headline {
+    height: 10vh;
+    padding: 20px;
+    background: slategray;
+    color: white;
+}
+.head-text {
+    padding: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    margin: auto;
+    position: relative;
+}
+hr {
+    /* width: 90%; */
+    margin: 8px auto;
+}
+.hr1 {
+    border: 2px solid black;
+}
+.hr2 {
+    border: 1px solid black;
+}
+.hr3 {
+    margin: 15px auto;
+    border: .5px solid black;
+}
+input, label, select, textarea, .form1-h1, .form2-h1, .lastp {
+    width: 90%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+label {
+    color: rgba(112, 128, 144, 0.6);
+}
+textarea {
+    background-color: rgba(185, 183, 183, 0.4);
+}
+input {
+    padding: 15px;
+    border-radius: 5px;
+    border: none ;
+    background-color: rgba(185, 183, 183, 0.4);
+    margin: auto;
+    display: flex;
+}
+.zip {
+    width: 50%;
+    margin-left: 5%;
+    
+}
+button {
+    display: block;
+    text-decoration: none;
+    width: 80%;
+    padding: 15px 10px;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    background: rgba(43, 190, 129, 0.9);
+    color: white;
+    border: white;
+    border-radius: 5px; 
+}
+.lastp {
+    text-align: center;
+    padding: 20px;
+}
+
+
