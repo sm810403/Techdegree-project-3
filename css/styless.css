@@ -73,8 +73,11 @@ legend {
 label {
     color: rgba(112, 128, 144, 0.6);
 }
-textarea, input {
+textarea, input, select {
     background-color: rgba(185, 183, 183, 0.4);
+}
+select {
+    border: none;
 }
 textarea {
     width: 100%;
@@ -87,7 +90,7 @@ button {
     width: 80%;
     padding: 15px 10px;
     text-align: center;
-    margin: 10px auto;
+    margin: 30px auto;
     font-size: 20px;
     background: rgba(43, 190, 129, 0.9);
     color: white;
