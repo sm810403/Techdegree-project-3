@@ -20,10 +20,7 @@ header {
     color: white;
     font-size: 23px;
 }
-.head-text {
-    width: 70%;
-    margin: auto;
-}
+
 .head-text h2 {
     padding: 10px 0;
     color: rgba(0, 0, 0, 0.7)
@@ -31,32 +28,46 @@ header {
 .head-text p {
     color:rgba(112, 128, 144, 0.6);
 }
-hr {
-    width: 70%;
-    margin: auto;
+
+.hr1, .hr2 {
+    margin-bottom: 5px;
 }
-form {
-    width: 70%;
-    margin: auto;
+.hr1 {
+    border:2px solid black;
 }
-.input1, .label1 {
+.hr2 {
+    border: 1px solid black;
+}
+.label1 {
     display: block;
-    padding: 15px 20px 15px 0;
+    padding: 15px 20px 10px 0;
 }
 .input1 {
+    display: block;
+    padding: 20px 20px 20px 0;
     width: 100%;
     border-radius: 5px;
     border: none;
+    text-align: end;
+}
+.input3 {
+    display: block;
+    padding: 20px 20px 20px 0;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    text-align: end;
 }
 select {
-    padding: 15px 20px 15px 0;
+    padding: 20px 20px 20px 0;
     border-radius: 5px;
-    /* margin-bottom: 20px; */
+    width: 100%;
 }
 .hr3 {
     margin: 25px auto;
 }
 form p {
+    color: rgba(112, 128, 144, 0.6);
     padding: 10px 10px 10px 0;
 }
 .input2, .light {
@@ -68,6 +79,7 @@ form p {
     padding: 20px 10px 10px 0;
 }
 legend {
+    font-size: 22px;
     padding: 15px 20px 15px 0;
 }
 label {
@@ -87,7 +99,7 @@ textarea {
 button {
     display: block;
     text-decoration: none;
-    width: 80%;
+    width: 100%;
     padding: 15px 10px;
     text-align: center;
     margin: 30px auto;
@@ -98,8 +110,36 @@ button {
     border-radius: 5px; 
 }
 .lastp {
+    color: rgba(112, 128, 144, 0.6);
     text-align: center;
-    padding: 20px;
+    padding: 5px 0 200px;
 }
-
+@media (min-width:320px) {
+    .head-text {
+        width: 90%;
+        margin: auto;
+    }
+    hr {
+        width: 90%;
+        margin: auto;
+    }
+    form {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (min-width: 768px) {
+    .head-text {
+        width: 40%;
+        margin: auto;
+    }
+    hr {
+        width: 40%;
+        margin: auto;
+    }
+    form {
+        width: 40%;
+        margin: auto;
+    }
+}
 
