@@ -78,7 +78,7 @@ form p {
     display: inline-block;
     padding: 20px 10px 10px 0;
 }
-legend {
+form h2 {
     font-size: 22px;
     padding: 15px 20px 15px 0;
 }
