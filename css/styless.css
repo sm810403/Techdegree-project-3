@@ -12,7 +12,7 @@ header {
     text-align: center;
 }
 .headline, .head-text {
-    padding: 20px 10px;
+    padding: 20px 0;
     font-size:18px;
 }
 .headline {
@@ -28,11 +28,14 @@ header {
 .head-text p {
     color:rgba(112, 128, 144, 0.6);
 }
-
+fieldset {
+    border: none;
+}
 .hr1, .hr2 {
     margin-bottom: 5px;
 }
 .hr1 {
+    margin-top: 15px;
     border:2px solid black;
 }
 .hr2 {
@@ -48,6 +51,8 @@ header {
     width: 100%;
     border-radius: 5px;
     border: none;
+}
+.input1::placeholder {
     text-align: end;
 }
 .input3 {
@@ -120,7 +125,7 @@ button {
         margin: auto;
     }
     hr {
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     form {
@@ -134,7 +139,7 @@ button {
         margin: auto;
     }
     hr {
-        width: 40%;
+        width: 100%;
         margin: auto;
     }
     form {

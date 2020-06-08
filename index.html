@@ -13,12 +13,15 @@
             <div class="head-text">
                 <h2>Signup for out newsletter</h2>
                 <p>Get the latest news on how your code is doing right in your inbox</p>
+                <hr class="hr1">
+                <hr class="hr2">
             </div>
+            
         </header>
-        <hr class="hr1">
-        <hr class="hr2">
+        
         <form action="index.html" method="post" id="form1" class="form1">
-            <h2 class="form1-h1"><strong>Contact Information</strong></h2>
+            <fieldset>
+                <legend class="form1-h1"><h2>Contact Information</h2></legend>
                 <label class="label1" for="fname">Full Name</label>
                 <input class="input1" type="text" id="fname" name="fname" placeholder="required">
                 <label class="label1" for="email">Email Address</label>
@@ -31,6 +34,7 @@
                 <input class="input1" type="text" id="city" name="city">
                 <label class="label1" for="state">Province</label>
                 <select name="state" id="state">
+                        <option selected disabled hidden>Choose province</option>
                         <option value="bc">British Columbia</option>
                         <option value="ab">Alberta</option>
                         <option value="mn">Manitoba</option>
@@ -47,10 +51,10 @@
                 </select><br>
                 <label class="label1" for="zcode">Zip Code</label>
                 <input class="input3" type="text" id="zcode" name="zcode">
-        </form>
-        <hr class="hr3">
-        <form action="index.html" method="post" id="form2" class="form2">  
-                <h2 class="form2-h1"><strong>Newsletter</strong></h2>
+                <hr class="hr3">
+            </fieldset>
+            <fieldset>
+                <legend class="form2-h1"><h2>Newsletter</h2></legend>
                 <p>Select the newsletters you would like to recieve</p>
                 <input class="input2" type="radio" id="news" name="news"><label class="light" for="news">HTML news</label><br>
                 <input class="input2" type="radio" id="news" name="news"><label class="light" for="news">CSS news</label><br>
@@ -64,6 +68,7 @@
                 <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
                 <button type="submit" id="btn-signup" name="btn-signup">Sign Up</button>
                 <p class="lastp"><i>Copyright The Code Review</i></p>
+            </fieldset>
         </form>
     </div>
 </body>
