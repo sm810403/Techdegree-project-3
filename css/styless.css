@@ -32,6 +32,11 @@ header {
 }
 fieldset {
     border: none;
+    position: relative;
+    overflow: hidden;
+}
+legend {
+    display: flex;
 }
 .hr1, .hr2 {
     margin-bottom: 5px;
@@ -49,7 +54,6 @@ fieldset {
     transition: all .3s ease;
 }
 .label1:hover {
-    text-shadow: 0 3px 20px rgba(46, 45, 45, 0.7);
     color: white;
 }
 .input1 {
@@ -63,9 +67,8 @@ fieldset {
     transition: all 1s ease;
 }
 .input1:hover, .input3:hover {
-    background: rgba(255, 255, 255, 0.63);
-    box-shadow: 0 5px 10px black;
-}
+    opacity:.4;
+} 
 
 .input1::placeholder {
     text-align: end;
@@ -83,11 +86,10 @@ select {
     border-radius: 5px;
     width: 100%;
     border:none;
-    transition: all 1s ease;
+    transition: all .4s ease;
 }
 select:hover {
-    background: white;
-   
+    opacity: .5;
 }
 .hr3 {
     margin: 25px auto;
@@ -122,8 +124,7 @@ textarea {
     transition: all .7s ease;
 }
 textarea:hover {
-    background: white;
-    box-shadow: 0 5px 10px black;
+    opacity: .4;
 }
 
 button {
