@@ -121,10 +121,11 @@ textarea {
     width: 100%;
     border-radius: 5px;
     font-size: 20px;
-    transition: all .4s ease;
+    transition: all 1s ease;
 }
-textarea:hover {
-    opacity: .4;
+textarea:focus {
+    opacity: .4s;
+    background: rgba(255, 99, 71, 0.3);
 }
 
 button {
