@@ -29,6 +29,7 @@ header {
 }
 .head-text p {
     color:rgb(112, 128, 144);
+    margin: 20px auto;
 }
 fieldset {
     border: none;
@@ -151,24 +152,25 @@ button:hover {
     text-align: center;
     padding: 5px 0 200px;
 }
-@media (min-width:320px) {
-    .head-text {
-        width: 90%;
-        margin: auto;
-    }
-    hr {
-        width: 100%;
-        margin: auto;
-    }
-    form {
-        width: 90%;
-        margin: auto;
-    }
+
+.head-text {
+    width: 90%;
+    margin: auto;
 }
+hr {
+    width: 100%;
+    margin: auto;
+}
+form {
+    width: 90%;
+    margin: auto;
+    }
+
 @media (min-width: 768px) {
     .head-text {
         width: 50%;
         margin: auto;
+
     }
     hr {
         width: 100%;
@@ -177,6 +179,18 @@ button:hover {
     form {
         width: 50%;
         margin: auto;
+    }
+    .input1, .label1, .input3, select {
+        display: inline-flex;
+        justify-content: space-between;
+        vertical-align: middle;
+        margin: 5px auto;
+    }
+    .input1,select {
+        width: 68%;
+    }
+    .label1 {
+        width: 30%;
     }
 }
 
